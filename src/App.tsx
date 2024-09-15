@@ -1,3 +1,9 @@
+import { Theme, Heading } from '@radix-ui/themes';
+
 export default function App() {
-  return <h1>Working...</h1>;
+  return (
+    <Theme accentColor='blue'>
+      <Heading>Working...</Heading>
+    </Theme>
+  );
 }
