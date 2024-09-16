@@ -1,10 +1,15 @@
-import { Theme, Container, Heading } from '@radix-ui/themes';
+import { Theme, Container, Heading, Flex } from '@radix-ui/themes';
+
+import ChildrenPattern from './patterns/children';
 
 export default function App() {
   return (
     <Theme accentColor='blue'>
       <Container size='4' p='4'>
-        <Heading color='blue'>React Design Patterns</Heading>
+        <Flex direction='column' gapY='6'>
+          <Heading color='blue'>React Design Patterns</Heading>
+          <ChildrenPattern />
+        </Flex>
       </Container>
     </Theme>
   );
