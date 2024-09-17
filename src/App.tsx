@@ -1,7 +1,8 @@
 import { Theme, Container, Heading, Flex } from '@radix-ui/themes';
 
 // import ChildrenPattern from './patterns/children';
-import CompoundPattern from './patterns/compound';
+// import CompoundPattern from './patterns/compound';
+import HOCPattern from './patterns/hoc';
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
         <Flex direction='column' gapY='6'>
           <Heading color='blue'>React Design Patterns</Heading>
           {/* <ChildrenPattern /> */}
-          <CompoundPattern />
+          {/* <CompoundPattern /> */}
+          <HOCPattern />
         </Flex>
       </Container>
     </Theme>
