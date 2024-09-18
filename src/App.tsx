@@ -6,7 +6,8 @@ import { Theme, Container, Heading, Flex } from '@radix-ui/themes';
 // import PropsDelegationPattern from './patterns/props-delegation';
 // import StyleDelegationPattern from './patterns/style-delegation';
 // import SlotsPattern from './patterns/slots';
-import PolymorphismPattern from './patterns/polymorphism';
+// import PolymorphismPattern from './patterns/polymorphism';
+import RenderPropsPattern from './patterns/render-props';
 
 export default function App() {
   return (
@@ -20,7 +21,8 @@ export default function App() {
           {/* <PropsDelegationPattern /> */}
           {/* <StyleDelegationPattern /> */}
           {/* <SlotsPattern /> */}
-          <PolymorphismPattern />
+          {/* <PolymorphismPattern /> */}
+          <RenderPropsPattern />
         </Flex>
       </Container>
     </Theme>
