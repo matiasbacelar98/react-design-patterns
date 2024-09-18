@@ -8,7 +8,8 @@ import { Theme, Container, Heading, Flex } from '@radix-ui/themes';
 // import SlotsPattern from './patterns/slots';
 // import PolymorphismPattern from './patterns/polymorphism';
 // import RenderPropsPattern from './patterns/render-props';
-import ContainerPresentationalPattern from './patterns/container-presentational';
+// import ContainerPresentationalPattern from './patterns/container-presentational';
+import ContextProviderPattern from './patterns/context-provider';
 
 export default function App() {
   return (
@@ -24,7 +25,8 @@ export default function App() {
           {/* <SlotsPattern /> */}
           {/* <PolymorphismPattern /> */}
           {/* <RenderPropsPattern /> */}
-          <ContainerPresentationalPattern />
+          {/* <ContainerPresentationalPattern /> */}
+          <ContextProviderPattern />
         </Flex>
       </Container>
     </Theme>
